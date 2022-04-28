@@ -1,0 +1,76 @@
+body{
+    margin:auto;
+    background-color:rgb(224, 224, 224);
+    padding:0;
+}
+
+.header-card{
+    display:block;
+    position:relative;
+}
+h3{
+    color:darkgray;
+    position:relative;
+    bottom:20px;
+}
+section{
+    margin-top: 50px;
+}
+.card{
+    padding:30px;
+    width:300px;
+    margin:auto;
+    background-color:rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:10px;
+}
+
+.key-field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input{
+    background-color:rgb(224, 224, 224);
+    border: none;
+    height:30px;
+    padding-left:20px;
+}
+input:invalid{
+    border:solid 2px red;
+}
+#error-key{
+    visibility: hidden;
+    height:0;
+    transition: height 0.5s ease;
+}
+#error-message {
+    color:red;
+    font-style: italic;
+}
+textarea{
+    background-color:rgb(224, 224, 224);
+    margin-top: 10px;
+    border: none;
+    padding:20px;
+}
+
+.button button{
+    margin-top:15px;
+    width:100%;
+    height:60px;
+    background-color:darkblue;
+    color:white;
+    font-size:18px;
+    border: none;
+}
+
+.button button:hover{
+    cursor: pointer;
+}
+
+p{
+    color:rgb(19, 166, 19);
+    font-weight: 800;
+    font-size:16px;
+}

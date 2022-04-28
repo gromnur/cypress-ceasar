@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodologie Tests</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="header-card">
+                <h2>Caeser Cypher</h2>
+                <h3>Vanilla JS</h3>
+            </div>
+            <div class="key-field">
+                <label for="key">Cypher key</label>
+                <div id="error-key">
+                    <p id="error-message">Key entre 1 et 26</p>
+                </div>
+                <input type="text" id="key" name="key" value="1" maxlength="2" required>
+                <textarea name="entry" id="entry" cols="30" rows="6" placeholder="Enter a text to cypher..."></textarea>
+            </div>
+            <div class="button">
+                <button onclick="clickCypherButton()">
+                    Cypher
+                </button>
+            </div>
+            <div class="result">
+                <p id="result-text">result</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/cesar.js"></script>
+    </section>
+
+</body>
+</html>
